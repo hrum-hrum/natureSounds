@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Roboto;
+  src: url('./assets/fonts/Roboto-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/summer-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#app {
+  background-color: rgba(255, 255, 255, 0.15);
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: lab(64.272% 57.1788 90.3583);
+  font-size: 4rem;
+  font-family: Roboto, sans-serif;
+}
+
+.btn__block {
+  display: flex;
+  gap: 20px;
+  flex-flow: row nowrap;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  height: 120px;
+  width: 120px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.btn_summer {
+  background-image: url('./assets/summer-bg.jpg');
+  background-size: cover;
+}
+.btn_rainy {
+  background-image: url('./assets/rainy-bg.jpg');
+  background-size: cover;
+}
+.btn_snowy {
+  background-image: url('./assets/winter-bg.jpg');
+  background-size: cover;
+}
