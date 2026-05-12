@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css" type="text/css">
     <title>Nature Sounds</title>
 </head>
 
@@ -19,7 +19,7 @@
             <button id="snowyBtn" class="sound__btn btn btn_snowy" data-sound="winter"><img
                     src="./assets/icons/cloud-snow.svg"></button>
         </div>
-        <audio controls>
+        <audio id="weatherAudio" controls>
             <source type="audio/mp3">
             Your browser does not support the audio element.
         </audio>
@@ -29,7 +29,7 @@
             </progress>
         </div> -->
     </div>
-    <script src="./app.js" type="module"></script>
+    <script src="./dist/app2.js" type="module"></script>
 </body>
 
 </html>
