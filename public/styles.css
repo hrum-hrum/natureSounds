@@ -1,12 +1,12 @@
 @font-face {
   font-family: Roboto;
-  src: url('./assets/fonts/Roboto-Regular.ttf');
+  src: url('../assets/fonts/Roboto-Regular.ttf');
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-image: url('./assets/summer-bg.jpg');
+  background-image: url('../assets/summer-bg.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -47,14 +47,14 @@ h1 {
 }
 
 .btn_summer {
-  background-image: url('./assets/summer-bg.jpg');
+  background-image: url('../assets/summer-bg.jpg');
   background-size: cover;
 }
 .btn_rainy {
-  background-image: url('./assets/rainy-bg.jpg');
+  background-image: url('../assets/rainy-bg.jpg');
   background-size: cover;
 }
 .btn_snowy {
-  background-image: url('./assets/winter-bg.jpg');
+  background-image: url('../assets/winter-bg.jpg');
   background-size: cover;
 }
